@@ -1,3 +1,14 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 2085F835
+/// @DnDInput : 2
+/// @DnDArgument : "value" "x"
+/// @DnDArgument : "value_1" "y"
+/// @DnDArgument : "var" "PCX"
+/// @DnDArgument : "var_1" "PCY"
+global.PCX = x;
+global.PCY = y;
+
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
 /// @DnDHash : 2BCA4873

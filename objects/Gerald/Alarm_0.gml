@@ -9,3 +9,10 @@ direction = 0;
 /// @DnDHash : 577987FE
 /// @DnDArgument : "var" "Jumping"
 Jumping = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 650C1BA0
+/// @DnDArgument : "value" "Jumping"
+/// @DnDArgument : "var" "GeraldJump"
+global.GeraldJump = Jumping;

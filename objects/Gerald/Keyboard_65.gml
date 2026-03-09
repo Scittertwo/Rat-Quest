@@ -1,25 +1,25 @@
-/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
-/// @DnDHash : 775E632A
-/// @DnDArgument : "var" "Jumping"
-if(Jumping == 0){	/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
+/// @DnDHash : 556ECDD2
+/// @DnDArgument : "expr" "Jumping+Attacking=0"
+if(Jumping+Attacking=0){	/// @DnDAction : YoYo Games.Movement.Set_Direction_Fixed
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 3BFB917A
-	/// @DnDParent : 775E632A
+	/// @DnDParent : 556ECDD2
 	/// @DnDArgument : "direction" "180"
 	direction = 180;
 
 	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDVersion : 1
 	/// @DnDHash : 13CE9D66
-	/// @DnDParent : 775E632A
+	/// @DnDParent : 556ECDD2
 	/// @DnDArgument : "speed" "Speed"
 	speed = Speed;
 
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 10E860E4
-	/// @DnDParent : 775E632A
+	/// @DnDParent : 556ECDD2
 	/// @DnDArgument : "imageind_relative" "1"
 	/// @DnDArgument : "spriteind" "LeftWalkSprite"
 	/// @DnDSaveInfo : "spriteind" "LeftWalkSprite"
