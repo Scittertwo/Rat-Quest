@@ -6,6 +6,13 @@
 /// @DnDArgument : "max" "2"
 Tick = (random_range(0.5, 2));
 
+/// @DnDAction : YoYo Games.Random.Get_Random_Number
+/// @DnDVersion : 1
+/// @DnDHash : 0E6CC12F
+/// @DnDArgument : "var" "Speed"
+/// @DnDArgument : "min" "0.2"
+Speed = (random_range(0.2, 1));
+
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 /// @DnDVersion : 1
 /// @DnDHash : 52791654
@@ -61,10 +68,11 @@ if(direction > 90){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDHash : 4D723BF7
 		/// @DnDParent : 1423C174
 		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos" "-35"
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "Hit"
 		/// @DnDSaveInfo : "objectid" "Hit"
-		instance_create_layer(x + 0, y + 0, "Instances", Hit);
+		instance_create_layer(x + 0, y + -35, "Instances", Hit);
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1
@@ -120,10 +128,11 @@ if(direction < 90){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDHash : 0835BC4F
 		/// @DnDParent : 62A4D7B7
 		/// @DnDArgument : "xpos_relative" "1"
+		/// @DnDArgument : "ypos" "-35"
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "Hit"
 		/// @DnDSaveInfo : "objectid" "Hit"
-		instance_create_layer(x + 0, y + 0, "Instances", Hit);
+		instance_create_layer(x + 0, y + -35, "Instances", Hit);
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1

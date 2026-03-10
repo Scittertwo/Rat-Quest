@@ -1,11 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 2EE2398F
-/// @DnDArgument : "value" "-1"
-/// @DnDArgument : "value_relative" "1"
-/// @DnDArgument : "var" "global.Keys"
-global.Keys += -1;
-
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 /// @DnDVersion : 1
 /// @DnDHash : 342D947B

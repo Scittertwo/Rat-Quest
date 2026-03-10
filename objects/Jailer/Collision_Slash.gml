@@ -18,10 +18,17 @@ image_alpha = ($FF0000FF >> 24) / $ff;
 /// @DnDArgument : "alarm" "1"
 alarm_set(1, 2);
 
+/// @DnDAction : YoYo Games.Common.Get_Global
+/// @DnDVersion : 1
+/// @DnDHash : 102F7D2F
+/// @DnDArgument : "output" "DMG"
+/// @DnDArgument : "var" "global.Damage"
+DMG = global.Damage;
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 2495DBB5
-/// @DnDArgument : "expr" "-10"
+/// @DnDArgument : "expr" "DMG"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "Health"
-Health += -10;
+Health += DMG;

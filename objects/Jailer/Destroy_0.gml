@@ -9,9 +9,9 @@ if(Drop == 1){	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 	/// @DnDParent : 0CF29F73
 	/// @DnDArgument : "var" "DropType"
 	/// @DnDArgument : "type" "1"
-	/// @DnDArgument : "min" "1"
+	/// @DnDArgument : "min" "2"
 	/// @DnDArgument : "max" "3"
-	DropType = floor(random_range(1, 3 + 1));
+	DropType = floor(random_range(2, 3 + 1));
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

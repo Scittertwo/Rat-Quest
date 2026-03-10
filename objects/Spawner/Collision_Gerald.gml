@@ -25,11 +25,11 @@ repeat(Spawn){	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 	/// @DnDParent : 1FA58655
 	/// @DnDArgument : "xpos" "tx"
 	/// @DnDArgument : "xpos_relative" "1"
-	/// @DnDArgument : "ypos" "-50"
+	/// @DnDArgument : "ypos" "-5"
 	/// @DnDArgument : "ypos_relative" "1"
 	/// @DnDArgument : "objectid" "Jailer"
 	/// @DnDSaveInfo : "objectid" "Jailer"
-	instance_create_layer(x + tx, y + -50, "Instances", Jailer);}
+	instance_create_layer(x + tx, y + -5, "Instances", Jailer);}
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1

@@ -37,5 +37,5 @@
     "path":"sprites/WoodSprite/WoodSprite.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

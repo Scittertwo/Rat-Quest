@@ -10,7 +10,16 @@ Keys = global.Keys;
 /// @DnDHash : 209B4224
 /// @DnDArgument : "var" "Keys"
 /// @DnDArgument : "op" "2"
-if(Keys > 0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+if(Keys > 0){	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 306A2066
+	/// @DnDParent : 209B4224
+	/// @DnDArgument : "value" "-1"
+	/// @DnDArgument : "value_relative" "1"
+	/// @DnDArgument : "var" "global.Keys"
+	global.Keys += -1;
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 3BD15506
 	/// @DnDParent : 209B4224

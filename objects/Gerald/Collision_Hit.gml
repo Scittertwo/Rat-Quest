@@ -1,10 +1,10 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 539F36B5
-/// @DnDArgument : "value" "-2"
+/// @DnDArgument : "value" "-3"
 /// @DnDArgument : "value_relative" "1"
 /// @DnDArgument : "var" "global.GeraldHealth"
-global.GeraldHealth += -2;
+global.GeraldHealth += -3;
 
 /// @DnDAction : YoYo Games.Instances.Call_User_Event
 /// @DnDVersion : 1

@@ -1,11 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7B370D00
-/// @DnDInput : 12
+/// @DnDInput : 13
 /// @DnDArgument : "expr" "100"
 /// @DnDArgument : "expr_1" "2"
 /// @DnDArgument : "expr_7" "1"
 /// @DnDArgument : "expr_9" "0.1"
+/// @DnDArgument : "expr_12" "Room2"
 /// @DnDArgument : "var" "Health"
 /// @DnDArgument : "var_1" "Speed"
 /// @DnDArgument : "var_2" "Moving"
@@ -18,6 +19,7 @@
 /// @DnDArgument : "var_9" "Size"
 /// @DnDArgument : "var_10" "AttackCooldown"
 /// @DnDArgument : "var_11" "ShowInventory"
+/// @DnDArgument : "var_12" "CRoom"
 Health = 100;
 Speed = 2;
 Moving = 0;
@@ -30,6 +32,7 @@ Attacking = 0;
 Size = 0.1;
 AttackCooldown = 0;
 ShowInventory = 0;
+CRoom = Prison;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
@@ -41,11 +44,12 @@ image_xscale = Size;image_yscale = Size;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 669D0DB7
-/// @DnDInput : 8
+/// @DnDInput : 9
 /// @DnDArgument : "value" "Facing"
 /// @DnDArgument : "value_1" "Jumping"
 /// @DnDArgument : "value_2" "1"
 /// @DnDArgument : "value_3" "Health"
+/// @DnDArgument : "value_8" "-5"
 /// @DnDArgument : "var" "GeraldDir"
 /// @DnDArgument : "var_1" "GeraldJump"
 /// @DnDArgument : "var_2" "Keys"
@@ -54,6 +58,7 @@ image_xscale = Size;image_yscale = Size;
 /// @DnDArgument : "var_5" "global.PCY"
 /// @DnDArgument : "var_6" "Pickles"
 /// @DnDArgument : "var_7" "Cheese"
+/// @DnDArgument : "var_8" "Damage"
 global.GeraldDir = Facing;
 global.GeraldJump = Jumping;
 global.Keys = 1;
@@ -62,6 +67,7 @@ global.PCX = 0;
 global.PCY = 0;
 global.Pickles = 0;
 global.Cheese = 0;
+global.Damage = -5;
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
