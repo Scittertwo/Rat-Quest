@@ -6,5 +6,5 @@ randomize();
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 710BEB84
-/// @DnDArgument : "var" "HPPlus"
-HPPlus = 0;
+/// @DnDArgument : "var" "Plus"
+Plus = 0;

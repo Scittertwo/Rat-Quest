@@ -114,8 +114,8 @@ if(CanJump == 1){	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 4DA7D193
 	/// @DnDParent : 12392BFE
-	/// @DnDArgument : "speed" "Speed*3"
-	speed = Speed*3;
+	/// @DnDArgument : "speed" "Speed*2"
+	speed = Speed*2;
 
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1

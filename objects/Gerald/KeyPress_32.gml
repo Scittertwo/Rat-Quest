@@ -17,7 +17,7 @@ if(CanAttack == 1){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDParent : 6310F5FD
 	/// @DnDArgument : "expr" "1"
 	/// @DnDArgument : "expr_2" "1"
-	/// @DnDArgument : "expr_3" "3"
+	/// @DnDArgument : "expr_3" "1"
 	/// @DnDArgument : "var" "Attacking"
 	/// @DnDArgument : "var_1" "CanAttack"
 	/// @DnDArgument : "var_2" "Moving"
@@ -25,7 +25,7 @@ if(CanAttack == 1){	/// @DnDAction : YoYo Games.Common.Variable
 	Attacking = 1;
 	CanAttack = 0;
 	Moving = 1;
-	AttackCooldown = 3;
+	AttackCooldown = 1;
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -129,6 +129,6 @@ if(CanAttack == 1){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 7D613E48
 	/// @DnDParent : 6310F5FD
-	/// @DnDArgument : "steps" "20"
+	/// @DnDArgument : "steps" "15"
 	/// @DnDArgument : "alarm" "1"
-	alarm_set(1, 20);}
+	alarm_set(1, 15);}

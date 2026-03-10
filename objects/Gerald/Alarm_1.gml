@@ -60,9 +60,9 @@ if(AttackCooldown > 0){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 7A2D38A9
 	/// @DnDParent : 3DEE40EB
-	/// @DnDArgument : "steps" "20"
+	/// @DnDArgument : "steps" "15"
 	/// @DnDArgument : "alarm" "1"
-	alarm_set(1, 20);}
+	alarm_set(1, 15);}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1

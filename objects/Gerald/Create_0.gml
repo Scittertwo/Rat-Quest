@@ -3,7 +3,7 @@
 /// @DnDHash : 7B370D00
 /// @DnDInput : 12
 /// @DnDArgument : "expr" "100"
-/// @DnDArgument : "expr_1" "1"
+/// @DnDArgument : "expr_1" "2"
 /// @DnDArgument : "expr_7" "1"
 /// @DnDArgument : "expr_9" "0.1"
 /// @DnDArgument : "var" "Health"
@@ -19,7 +19,7 @@
 /// @DnDArgument : "var_10" "AttackCooldown"
 /// @DnDArgument : "var_11" "ShowInventory"
 Health = 100;
-Speed = 1;
+Speed = 2;
 Moving = 0;
 Facing = 0;
 OnFloor = 0;
@@ -44,8 +44,8 @@ image_xscale = Size;image_yscale = Size;
 /// @DnDInput : 8
 /// @DnDArgument : "value" "Facing"
 /// @DnDArgument : "value_1" "Jumping"
+/// @DnDArgument : "value_2" "1"
 /// @DnDArgument : "value_3" "Health"
-/// @DnDArgument : "value_6" "3"
 /// @DnDArgument : "var" "GeraldDir"
 /// @DnDArgument : "var_1" "GeraldJump"
 /// @DnDArgument : "var_2" "Keys"
@@ -56,11 +56,11 @@ image_xscale = Size;image_yscale = Size;
 /// @DnDArgument : "var_7" "Cheese"
 global.GeraldDir = Facing;
 global.GeraldJump = Jumping;
-global.Keys = 0;
+global.Keys = 1;
 global.GeraldHealth = Health;
 global.PCX = 0;
 global.PCY = 0;
-global.Pickles = 3;
+global.Pickles = 0;
 global.Cheese = 0;
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance

@@ -5,6 +5,39 @@
 /// @DnDArgument : "var" "global.GeraldHealth"
 GHealth = global.GeraldHealth;
 
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6235D247
+/// @DnDArgument : "var" "GHealth"
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "100"
+if(GHealth > 100){	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 37FD3E64
+	/// @DnDParent : 6235D247
+	/// @DnDArgument : "value" "100"
+	/// @DnDArgument : "var" "global.GeraldHealth"
+	global.GeraldHealth = 100;}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7D9ECAC4
+/// @DnDArgument : "var" "GHealth"
+/// @DnDArgument : "op" "3"
+if(GHealth <= 0){	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 523A5DE8
+	/// @DnDParent : 7D9ECAC4
+	/// @DnDArgument : "var" "global.GeraldHealth"
+	global.GeraldHealth = 0;}
+
+/// @DnDAction : YoYo Games.Common.Get_Global
+/// @DnDVersion : 1
+/// @DnDHash : 0A3856AA
+/// @DnDArgument : "output" "GHealth"
+/// @DnDArgument : "var" "global.GeraldHealth"
+GHealth = global.GeraldHealth;
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 0A6A9C0D
