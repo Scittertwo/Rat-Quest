@@ -13,9 +13,9 @@ if(OnFloor == 0){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDParent : 541FBA0A
 		/// @DnDArgument : "x" "0"
 		/// @DnDArgument : "x_relative" "1"
-		/// @DnDArgument : "y" "2"
+		/// @DnDArgument : "y" "3"
 		/// @DnDArgument : "y_relative" "1"
-		x += 0;y += 2;}}
+		x += 0;y += 3;}}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1

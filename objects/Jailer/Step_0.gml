@@ -13,9 +13,9 @@ var l01867F48_0 = instance_place(x + 0, y + 3, [Floor]);if (!(l01867F48_0 > 0))
 	/// @DnDParent : 01867F48
 	/// @DnDArgument : "x" "0"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "2"
+	/// @DnDArgument : "y" "3"
 	/// @DnDArgument : "y_relative" "1"
-	x += 0;y += 2;}
+	x += 0;y += 3;}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

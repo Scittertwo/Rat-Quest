@@ -29,7 +29,13 @@ if(GHealth <= 0){	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDHash : 523A5DE8
 	/// @DnDParent : 7D9ECAC4
 	/// @DnDArgument : "var" "global.GeraldHealth"
-	global.GeraldHealth = 0;}
+	global.GeraldHealth = 0;
+
+	/// @DnDAction : YoYo Games.Rooms.Restart_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 0C706305
+	/// @DnDParent : 7D9ECAC4
+	room_restart();}
 
 /// @DnDAction : YoYo Games.Common.Get_Global
 /// @DnDVersion : 1
