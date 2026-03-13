@@ -35,7 +35,22 @@ if(GHealth <= 0){	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
 	/// @DnDHash : 0C706305
 	/// @DnDParent : 7D9ECAC4
-	room_restart();}
+	room_restart();
+
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 67D8B433
+	/// @DnDInput : 4
+	/// @DnDParent : 7D9ECAC4
+	/// @DnDArgument : "value_3" "-5"
+	/// @DnDArgument : "var" "global.Cheese"
+	/// @DnDArgument : "var_1" "global.Pickles"
+	/// @DnDArgument : "var_2" "global.Keys"
+	/// @DnDArgument : "var_3" "global.Damage"
+	global.Cheese = 0;
+	global.Pickles = 0;
+	global.Keys = 0;
+	global.Damage = -5;}
 
 /// @DnDAction : YoYo Games.Common.Get_Global
 /// @DnDVersion : 1

@@ -17,13 +17,6 @@ if(CanJump == 1){	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDArgument : "var" "Jumping"
 	Jumping = 1;
 
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 5B406844
-	/// @DnDParent : 12392BFE
-	/// @DnDArgument : "var" "CanJump"
-	CanJump = 0;
-
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
 	/// @DnDVersion : 1
 	/// @DnDHash : 40D78A9D
@@ -114,8 +107,8 @@ if(CanJump == 1){	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 4DA7D193
 	/// @DnDParent : 12392BFE
-	/// @DnDArgument : "speed" "Speed*2"
-	speed = Speed*2;
+	/// @DnDArgument : "speed" "Speed+1"
+	speed = Speed+1;
 
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
@@ -123,4 +116,11 @@ if(CanJump == 1){	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDParent : 12392BFE
 	/// @DnDArgument : "value" "Jumping"
 	/// @DnDArgument : "var" "GeraldJump"
-	global.GeraldJump = Jumping;}
+	global.GeraldJump = Jumping;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 5B406844
+	/// @DnDParent : 12392BFE
+	/// @DnDArgument : "var" "CanJump"
+	CanJump = 0;}

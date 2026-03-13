@@ -6,7 +6,6 @@
 /// @DnDArgument : "expr_1" "2"
 /// @DnDArgument : "expr_7" "1"
 /// @DnDArgument : "expr_9" "0.1"
-/// @DnDArgument : "expr_12" "Room2"
 /// @DnDArgument : "var" "Health"
 /// @DnDArgument : "var_1" "Speed"
 /// @DnDArgument : "var_2" "Moving"
@@ -19,7 +18,7 @@
 /// @DnDArgument : "var_9" "Size"
 /// @DnDArgument : "var_10" "AttackCooldown"
 /// @DnDArgument : "var_11" "ShowInventory"
-/// @DnDArgument : "var_12" "CRoom"
+/// @DnDArgument : "var_12" "Room"
 Health = 100;
 Speed = 2;
 Moving = 0;
@@ -32,7 +31,7 @@ Attacking = 0;
 Size = 0.1;
 AttackCooldown = 0;
 ShowInventory = 0;
-CRoom = Prison;
+Room = 0;
 
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
@@ -49,6 +48,7 @@ image_xscale = Size;image_yscale = Size;
 /// @DnDArgument : "value_1" "Jumping"
 /// @DnDArgument : "value_2" "1"
 /// @DnDArgument : "value_3" "Health"
+/// @DnDArgument : "value_6" "1"
 /// @DnDArgument : "value_8" "-5"
 /// @DnDArgument : "var" "GeraldDir"
 /// @DnDArgument : "var_1" "GeraldJump"
@@ -65,7 +65,7 @@ global.Keys = 1;
 global.GeraldHealth = Health;
 global.PCX = 0;
 global.PCY = 0;
-global.Pickles = 0;
+global.Pickles = 1;
 global.Cheese = 0;
 global.Damage = -5;
 

@@ -1,6 +1,4 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 52241013
-/// @DnDArgument : "expr" "1"
-/// @DnDArgument : "var" "Open"
-Open = 1;
+/// @DnDHash : 0D00B897
+instance_destroy();

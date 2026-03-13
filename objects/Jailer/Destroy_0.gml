@@ -15,23 +15,6 @@ if(Drop == 1){	/// @DnDAction : YoYo Games.Random.Get_Random_Number
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 0B0C13B0
-	/// @DnDParent : 0CF29F73
-	/// @DnDArgument : "var" "DropType"
-	/// @DnDArgument : "value" "1"
-	if(DropType == 1){	/// @DnDAction : YoYo Games.Instances.Create_Instance
-		/// @DnDVersion : 1
-		/// @DnDHash : 34908128
-		/// @DnDParent : 0B0C13B0
-		/// @DnDArgument : "xpos_relative" "1"
-		/// @DnDArgument : "ypos" "-50"
-		/// @DnDArgument : "ypos_relative" "1"
-		/// @DnDArgument : "objectid" "Pickle"
-		/// @DnDSaveInfo : "objectid" "Pickle"
-		instance_create_layer(x + 0, y + -50, "Instances", Pickle);}
-
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
 	/// @DnDHash : 00924C96
 	/// @DnDParent : 0CF29F73
 	/// @DnDArgument : "var" "DropType"

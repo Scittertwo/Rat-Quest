@@ -10,8 +10,9 @@ Tick = (random_range(0.5, 2));
 /// @DnDVersion : 1
 /// @DnDHash : 0E6CC12F
 /// @DnDArgument : "var" "Speed"
-/// @DnDArgument : "min" "0.2"
-Speed = (random_range(0.2, 1));
+/// @DnDArgument : "min" "0.3"
+/// @DnDArgument : "max" "0.6"
+Speed = (random_range(0.3, 0.6));
 
 /// @DnDAction : YoYo Games.Movement.Set_Direction_Point
 /// @DnDVersion : 1
@@ -90,11 +91,10 @@ if(direction > 90){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 4F602537
 		/// @DnDParent : 4BCD5363
-		/// @DnDArgument : "imageind_relative" "1"
 		/// @DnDArgument : "spriteind" "LWalkJailer"
 		/// @DnDSaveInfo : "spriteind" "LWalkJailer"
 		sprite_index = LWalkJailer;
-		image_index += 0;}}
+		image_index = 0;}}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -160,11 +160,18 @@ if(direction < 90){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 4EC31F66
 		/// @DnDParent : 5E5B560C
-		/// @DnDArgument : "imageind_relative" "1"
 		/// @DnDArgument : "spriteind" "RWalkJailer"
 		/// @DnDSaveInfo : "spriteind" "RWalkJailer"
 		sprite_index = RWalkJailer;
-		image_index += 0;}}
+		image_index = 0;}}
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 00DA858A
+/// @DnDArgument : "expr" "-1"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "Health"
+Health += -1;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

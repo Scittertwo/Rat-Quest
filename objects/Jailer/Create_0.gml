@@ -2,7 +2,7 @@
 /// @DnDVersion : 1
 /// @DnDHash : 7AD4227F
 /// @DnDInput : 11
-/// @DnDArgument : "expr" "50"
+/// @DnDArgument : "expr" "25"
 /// @DnDArgument : "expr_1" "0.6"
 /// @DnDArgument : "expr_5" "0.1"
 /// @DnDArgument : "var" "Health"
@@ -16,7 +16,7 @@
 /// @DnDArgument : "var_8" "Moving"
 /// @DnDArgument : "var_9" "Drop"
 /// @DnDArgument : "var_10" "DropType"
-Health = 50;
+Health = 25;
 Speed = 0.6;
 OnFloor = 0;
 Tick = 0;

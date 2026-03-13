@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"KeyL",
-    "path":"sprites/KeyL/KeyL.yy",
+    "name":"KeySprite",
+    "path":"sprites/KeySprite/KeySprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

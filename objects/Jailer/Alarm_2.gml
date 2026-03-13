@@ -21,11 +21,10 @@ if(direction > 90){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 6B71B3C9
 	/// @DnDParent : 4F2A2809
-	/// @DnDArgument : "imageind_relative" "1"
 	/// @DnDArgument : "spriteind" "LIdleJailer"
 	/// @DnDSaveInfo : "spriteind" "LIdleJailer"
 	sprite_index = LIdleJailer;
-	image_index += 0;}
+	image_index = 0;}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -37,8 +36,7 @@ if(direction < 90){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 0D1406CC
 	/// @DnDParent : 78A95ECA
-	/// @DnDArgument : "imageind_relative" "1"
 	/// @DnDArgument : "spriteind" "RIdleJailer"
 	/// @DnDSaveInfo : "spriteind" "RIdleJailer"
 	sprite_index = RIdleJailer;
-	image_index += 0;}
+	image_index = 0;}

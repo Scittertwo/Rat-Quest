@@ -15,8 +15,29 @@ if(!(room == Apothecary)){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
 /// @DnDHash : 0A251BF9
-else{	/// @DnDAction : YoYo Games.Rooms.Previous_Room
+else{	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 7715EDC1
+	/// @DnDHash : 6D6C54D9
 	/// @DnDParent : 0A251BF9
-	room_goto_previous();}
+	/// @DnDArgument : "var" "Room"
+	if(Room == 0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 52908F15
+		/// @DnDParent : 6D6C54D9
+		/// @DnDArgument : "room" "Prison"
+		/// @DnDSaveInfo : "room" "Prison"
+		room_goto(Prison);}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 71F45489
+	/// @DnDParent : 0A251BF9
+	/// @DnDArgument : "var" "Room"
+	/// @DnDArgument : "value" "1"
+	if(Room == 1){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 46AD7642
+		/// @DnDParent : 71F45489
+		/// @DnDArgument : "room" "Garden"
+		/// @DnDSaveInfo : "room" "Garden"
+		room_goto(Garden);}}
